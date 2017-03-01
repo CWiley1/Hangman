@@ -46,7 +46,6 @@ int main()
     cin >> word_size;
     populate_vec(word_size, word_base);
     char word[word_size];
-    //cout << word_base.front() << endl;
 
     int messups = 0;
 
@@ -126,14 +125,6 @@ int main()
     {
         cout << "I win!" << endl;
     }
-
-
-
-
-
-
-
-
 
 
     return 0;
