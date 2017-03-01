@@ -1,1 +1,4 @@
-Hangman is a C++ terminal application that utilizes a dictionary text file to guess the most probable letters in an unknown user chosen word. 
+Hangman is a C++ terminal application that utilizes a dictionary text file to guess
+the most probable letters in an unknown user chosen word. The program uses 
+the information it is given to its maximum benefit by storing words in a vector 
+and deleting any that do not align with the most current infomration.
