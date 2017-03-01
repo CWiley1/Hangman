@@ -7,9 +7,9 @@
 
 using namespace std;
 
+void clearboard();
 void populate_vec(int size, vector<string>& base);
 void drawboard(char gallows[], char word[], int length);
-void clearboard();
 bool user_interact(char gallows[], char word[], int length, vector<string>& word_base_, int& messups);
 char guesser(vector<string>& word_base_, char word[], int length);
 void position_rewrite(vector<string>& word_base_, int positions[], int number_of_letters, char current_guess, int length);
